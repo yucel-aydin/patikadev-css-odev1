@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header {
+  background-color: #f38181;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* nav */
+nav {
+  float: left;
+  width: 25%;
+  min-height: 100vh; 
+  background: #fce38a;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  padding: 7px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.content {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #eaffd0;
+  min-height: 100vh; 
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive nav ve content */
+@media (max-width: 600px) {
+  nav,
+  .content {
+    width: 100%;
+    height: auto;
+  }
+}
+/* footer */
+footer {
+  background-color: #95e1d3;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/*projects */
+.projects{}
+.projects li{
+    list-style-type: none;
+
+}
+.project-container{}
+
+/*iletişim*/
+.contact-info-container{
+    text-align: -webkit-center;
+}
