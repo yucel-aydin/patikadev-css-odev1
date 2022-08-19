@@ -24,4 +24,3 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 # Patika.dev Profil
 [Hesabım](https://app.patika.dev/yck)
 
-![VSCode Screenshot](https://i.ibb.co/0FkCSWB/kodluyoruzilkrepo.png)
